@@ -1,0 +1,48 @@
+$turkos: #0595A1
+@mixin flex
+    // write the css here
+    display: -webkit-flex
+    display: flex
+
+.button
+  width: 100px
+  height: 40px
+  color: $turkos
+  font-size: 20px
+  font-weight: 300
+  border: solid 1px
+  border-radius: 10px
+  background-color: white
+  justify-content: center
+  flex-direction: column
+  @include flex
+  border-color: $turkos
+  &:hover
+    background-color: $turkos
+    color: white
+    border-color: none
+    cursor: pointer
+
+
+.hello
+  display: flex
+  margin-top: 100px
+  flex-direction: column
+  align-items: center
+  img
+    max-width: 25vw
+    max-height: 25vh
+  h1, h2
+    font-weight: thick
+    color: $turkos
+
+  ul
+    list-style-type: none
+    padding: 0
+
+  li
+    display: inline-block
+    margin: 0 10px
+
+  a
+    color: #42b983
