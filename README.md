@@ -3,21 +3,25 @@
 
 ![](header.png)
 
-## Installation
+## Project info
 
-OS X & Linux:
+This was made as a small school project. We wanted too learn something new so we started of with Vue, a framework that has good recomendations. The project plan was to setting up a workflow from start to deploy.
 
-```sh
-npm install my-crazy-module --save
-```
+> Start - For an effective way for setting up a nice structure and orginize your maps and files we choose Vue-CLI for scaffolding.
+That included: Webpack, ESlint, Jest, Vue-Router.
 
-Windows:
+> Develop - SASS, JavaScript, Vue, ESlint
 
-```sh
-edit autoexec.bat
-```
+> Test - Jest For TDD ( Test Driven Development )
 
-## Usage example
+> Intergrate - GitHub, Create a new branch for every sucessfull function and push it upp.
+
+> Optimize - Vue-CLI comes with with a nice setup with build tool. build for production with minification, just npm run build.
+
+> Deploy 
+
+
+## Project info
 
 A few motivating and useful examples of how your product can be used. Spice this up with code blocks and potentially more screenshots.
 
@@ -61,23 +65,16 @@ Add additional notes about how to deploy this on a live system
 
 ## Built With
 
-* [Dropwizard](http://www.dropwizard.io/1.0.2/docs/) - The web framework used
-* [Maven](https://maven.apache.org/) - Dependency Management
-* [ROME](https://rometools.github.io/rome/) - Used to generate RSS Feeds
+* [Vue-CLI](https://vuejs.org/v2/guide/installation.html) - The web framework used
+* [Firebase](https://firebase.google.com/docs/) - Database
+* [VueFire](https://alligator.io/vuejs/vuefire-firebase/) - Includes for using firebase.
 
-## Contributing
-
-Please read [CONTRIBUTING.md](https://gist.github.com/PurpleBooth/b24679402957c63ec426) for details on our code of conduct, and the process for submitting pull requests to us.
-
-## Versioning
-
-We use [SemVer](http://semver.org/) for versioning. For the versions available, see the [tags on this repository](https://github.com/your/project/tags). 
 
 ## Authors
 
-* **Billie Thompson** - *Initial work* - [PurpleBooth](https://github.com/PurpleBooth)
+* **Samuel Rudholm** - *JavaScript student at jensen Education* - [LinkedIn](https://github.com/PurpleBooth)
 
-See also the list of [contributors](https://github.com/your/project/contributors) who participated in this project.
+* **Jamiu Markay** - *JavaScript student at jensen Education* - [LinkedIn](https://github.com/PurpleBooth)
 
 ## Acknowledgments
 
