@@ -21,14 +21,21 @@ That included: Webpack, ESlint, Jest, Vue-Router.
 > Deploy 
 
 
-## Project info
+## Usage example
 
-A few motivating and useful examples of how your product can be used. Spice this up with code blocks and potentially more screenshots.
+Do you want to gather data about the traffic to your webpage, this is the perfect setup if you want to use firebase as your database.
 
-_For more examples and usage, please refer to the [Wiki][wiki]._
+Display how many times you have been on the page.
+
+Display total amount visitors.
+
 
 ## Development setup
 ``` bash
+
+# Open your console
+git clone https://github.com/batr-sweden/Vue-Counter.git
+
 # install dependencies
 npm install
 
@@ -68,6 +75,7 @@ Add additional notes about how to deploy this on a live system
 * [Vue-CLI](https://vuejs.org/v2/guide/installation.html) - The web framework used
 * [Firebase](https://firebase.google.com/docs/) - Database
 * [VueFire](https://alligator.io/vuejs/vuefire-firebase/) - Includes for using firebase.
+* [LocalStorage]() - Store data local
 
 
 ## Authors
@@ -78,6 +86,7 @@ Add additional notes about how to deploy this on a live system
 
 ## Acknowledgments
 
-* Hat tip to anyone who's code was used
-* Inspiration
-* etc
+* https://alligator.io/vuejs/component-lifecycle/
+* https://alligator.io/vuejs/vuefire-firebase/
+* https://vue-loader.vuejs.org/en/configurations/pre-processors.html
+* https://hackernoon.com/jest-for-all-episode-1-vue-js-d616bccbe186
