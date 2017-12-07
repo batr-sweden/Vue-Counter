@@ -10,4 +10,8 @@ const config = {
 }
 const app = Firebase.initializeApp(config)
 
-export { app }
+const db = app.database();
+
+const countRef = db.ref('counter/total');
+
+export { app, countRef };
