@@ -6,11 +6,9 @@
 </template>
 
 <script>
-import firebase from 'firebase'
 export default {
-  name: 'app',
+  name: 'app'
 }
-
 </script>
 
 <style lang="sass">

@@ -1,10 +1,5 @@
-@mixin flex
-    // write the css here
-    display: -webkit-flex
-    display: flex
-
-@mixin Devpro
-    // border: 1px solid black
+@import color
+@import Mixings
 
 .countContainer
   width: 100vh
@@ -19,6 +14,31 @@
   font-size: 17px
   font-weight: 500
   color: #000
+.display_visits
+  @include flex
+  flex-direction: row
+  justify-content: center
+  .button
+    flex: none
+    width: 100px
+    height: 100px
+    border-radius: 50px
+    cursor: default
+    margin: 10px
+  .display_today_num
+    color: $lightPurple4
+  .display_week_num
+    color: $accentPurple1
+  .display_month_num
+    color: $lightPurple2
+  .day
+    @include transition(color 3s, background-color 3s, border-color 2s)
+    &:hover
+      border-color: transparent
+      background-color: $lightPurple4
+      .display_today_num
+        color: $white
+
 .styleBox
   @include flex
   flex: 1
